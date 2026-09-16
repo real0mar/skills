@@ -113,15 +113,6 @@
     ]
   },
   {
-    "name": "headless-obsidian-sync",
-    "classification": "custom-local",
-    "path": "skills/note-taking/headless-obsidian-sync",
-    "files": [
-      "skills/note-taking/headless-obsidian-sync/SKILL.md",
-      "skills/note-taking/headless-obsidian-sync/references/obsidian-headless-allowtypes.md"
-    ]
-  },
-  {
     "name": "hermes-agent",
     "classification": "modified-bundled",
     "path": "skills/autonomous-ai-agents/hermes-agent",
