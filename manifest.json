@@ -1,0 +1,246 @@
+[
+  {
+    "name": "aesthetic-persona-analysis",
+    "classification": "custom-local",
+    "path": "skills/research/aesthetic-persona-analysis",
+    "files": [
+      "skills/research/aesthetic-persona-analysis/SKILL.md",
+      "skills/research/aesthetic-persona-analysis/references/pinterest-profile-sampling.md",
+      "skills/research/aesthetic-persona-analysis/references/relationship-context-guardrails.md"
+    ]
+  },
+  {
+    "name": "agent-to-agent-integrations",
+    "classification": "custom-local",
+    "path": "skills/autonomous-ai-agents/agent-to-agent-integrations",
+    "files": [
+      "skills/autonomous-ai-agents/agent-to-agent-integrations/SKILL.md",
+      "skills/autonomous-ai-agents/agent-to-agent-integrations/references/poke-api.md"
+    ]
+  },
+  {
+    "name": "air-travel-planning",
+    "classification": "custom-local",
+    "path": "skills/productivity/air-travel-planning",
+    "files": [
+      "skills/productivity/air-travel-planning/SKILL.md",
+      "skills/productivity/air-travel-planning/references/google-flights-browser-workflow.md"
+    ]
+  },
+  {
+    "name": "cloud-hosting-cost-analysis",
+    "classification": "custom-local",
+    "path": "skills/devops/cloud-hosting-cost-analysis",
+    "files": [
+      "skills/devops/cloud-hosting-cost-analysis/SKILL.md",
+      "skills/devops/cloud-hosting-cost-analysis/references/hermes-agent-hosting.md"
+    ]
+  },
+  {
+    "name": "community-forum-research",
+    "classification": "custom-local",
+    "path": "skills/research/community-forum-research",
+    "files": [
+      "skills/research/community-forum-research/SKILL.md",
+      "skills/research/community-forum-research/references/reddit-archive-recovery.md"
+    ]
+  },
+  {
+    "name": "consumer-tech-analysis",
+    "classification": "custom-local",
+    "path": "skills/research/consumer-tech-analysis",
+    "files": [
+      "skills/research/consumer-tech-analysis/SKILL.md",
+      "skills/research/consumer-tech-analysis/references/digital-wellbeing-interventions.md",
+      "skills/research/consumer-tech-analysis/references/dropship-vs-original-rd.md",
+      "skills/research/consumer-tech-analysis/references/gcam-device-port-selection.md",
+      "skills/research/consumer-tech-analysis/references/messaging-native-ai-subscription-reuse.md",
+      "skills/research/consumer-tech-analysis/references/pc-console-graphics-equivalence.md",
+      "skills/research/consumer-tech-analysis/references/pixel-high-resolution-mode.md",
+      "skills/research/consumer-tech-analysis/references/smartphone-camera-resolution-modes.md"
+    ]
+  },
+  {
+    "name": "conversation-analysis",
+    "classification": "custom-local",
+    "path": "skills/research/conversation-analysis",
+    "files": [
+      "skills/research/conversation-analysis/SKILL.md",
+      "skills/research/conversation-analysis/references/large-chat-evidence-extraction.md"
+    ]
+  },
+  {
+    "name": "conversational-persona-engineering",
+    "classification": "custom-local",
+    "path": "skills/research/conversational-persona-engineering",
+    "files": [
+      "skills/research/conversational-persona-engineering/SKILL.md",
+      "skills/research/conversational-persona-engineering/references/poke-case-study.md"
+    ]
+  },
+  {
+    "name": "dynamic-web-catalog-research",
+    "classification": "custom-local",
+    "path": "skills/research/dynamic-web-catalog-research",
+    "files": [
+      "skills/research/dynamic-web-catalog-research/SKILL.md",
+      "skills/research/dynamic-web-catalog-research/references/js-spa-api-recovery.md"
+    ]
+  },
+  {
+    "name": "google-workspace",
+    "classification": "modified-bundled",
+    "path": "skills/productivity/google-workspace",
+    "files": [
+      "skills/productivity/google-workspace/SKILL.md",
+      "skills/productivity/google-workspace/references/gmail-search-syntax.md",
+      "skills/productivity/google-workspace/scripts/_hermes_home.py",
+      "skills/productivity/google-workspace/scripts/google_api.py",
+      "skills/productivity/google-workspace/scripts/gws_bridge.py",
+      "skills/productivity/google-workspace/scripts/setup.py"
+    ]
+  },
+  {
+    "name": "grounded-citations",
+    "classification": "modified-bundled",
+    "path": "skills/research/grounded-citations",
+    "files": [
+      "skills/research/grounded-citations/SKILL.md",
+      "skills/research/grounded-citations/references/citation-formats.md",
+      "skills/research/grounded-citations/references/grounding-rationale.md",
+      "skills/research/grounded-citations/scripts/_hermes_home.py",
+      "skills/research/grounded-citations/scripts/sources.py"
+    ]
+  },
+  {
+    "name": "headless-obsidian-sync",
+    "classification": "custom-local",
+    "path": "skills/note-taking/headless-obsidian-sync",
+    "files": [
+      "skills/note-taking/headless-obsidian-sync/SKILL.md",
+      "skills/note-taking/headless-obsidian-sync/references/obsidian-headless-allowtypes.md"
+    ]
+  },
+  {
+    "name": "hermes-agent",
+    "classification": "modified-bundled",
+    "path": "skills/autonomous-ai-agents/hermes-agent",
+    "files": [
+      "skills/autonomous-ai-agents/hermes-agent/SKILL.md",
+      "skills/autonomous-ai-agents/hermes-agent/references/background-systems.md",
+      "skills/autonomous-ai-agents/hermes-agent/references/cli-reference.md",
+      "skills/autonomous-ai-agents/hermes-agent/references/configuration.md",
+      "skills/autonomous-ai-agents/hermes-agent/references/contributor-guide.md",
+      "skills/autonomous-ai-agents/hermes-agent/references/delegate-task-concurrency-diagnosis.md",
+      "skills/autonomous-ai-agents/hermes-agent/references/desktop-plugins.md",
+      "skills/autonomous-ai-agents/hermes-agent/references/native-mcp.md",
+      "skills/autonomous-ai-agents/hermes-agent/references/petdex.md",
+      "skills/autonomous-ai-agents/hermes-agent/references/portal-auth-for-third-party-apps.md",
+      "skills/autonomous-ai-agents/hermes-agent/references/project-context-files.md",
+      "skills/autonomous-ai-agents/hermes-agent/references/providers-and-models.md",
+      "skills/autonomous-ai-agents/hermes-agent/references/security-privacy.md",
+      "skills/autonomous-ai-agents/hermes-agent/references/slash-commands.md",
+      "skills/autonomous-ai-agents/hermes-agent/references/themes.md",
+      "skills/autonomous-ai-agents/hermes-agent/references/troubleshooting.md",
+      "skills/autonomous-ai-agents/hermes-agent/references/tui-widgets.md",
+      "skills/autonomous-ai-agents/hermes-agent/references/webhooks.md",
+      "skills/autonomous-ai-agents/hermes-agent/references/windows-quirks.md",
+      "skills/autonomous-ai-agents/hermes-agent/templates/clock.mjs",
+      "skills/autonomous-ai-agents/hermes-agent/templates/plugin.js",
+      "skills/autonomous-ai-agents/hermes-agent/templates/skin.yaml"
+    ]
+  },
+  {
+    "name": "hermes-feature-triage",
+    "classification": "custom-local",
+    "path": "skills/autonomous-ai-agents/hermes-feature-triage",
+    "files": [
+      "skills/autonomous-ai-agents/hermes-feature-triage/SKILL.md",
+      "skills/autonomous-ai-agents/hermes-feature-triage/references/bang-passthrough.md",
+      "skills/autonomous-ai-agents/hermes-feature-triage/references/model-routing-handoff.md",
+      "skills/autonomous-ai-agents/hermes-feature-triage/references/prompt-size-skill-index.md",
+      "skills/autonomous-ai-agents/hermes-feature-triage/references/toolset-vs-backend-readiness.md"
+    ]
+  },
+  {
+    "name": "hermes-model-routing",
+    "classification": "custom-local",
+    "path": "skills/autonomous-ai-agents/hermes-model-routing",
+    "files": [
+      "skills/autonomous-ai-agents/hermes-model-routing/SKILL.md",
+      "skills/autonomous-ai-agents/hermes-model-routing/references/README.md",
+      "skills/autonomous-ai-agents/hermes-model-routing/references/xai-live-model-probe.md",
+      "skills/autonomous-ai-agents/hermes-model-routing/scripts/xai_hello_probe.py"
+    ]
+  },
+  {
+    "name": "hermes-skill-lifecycle",
+    "classification": "custom-local",
+    "path": "skills/autonomous-ai-agents/hermes-skill-lifecycle",
+    "files": [
+      "skills/autonomous-ai-agents/hermes-skill-lifecycle/SKILL.md",
+      "skills/autonomous-ai-agents/hermes-skill-lifecycle/references/provenance-audit.md"
+    ]
+  },
+  {
+    "name": "multimodal-commute-analysis",
+    "classification": "custom-local",
+    "path": "skills/productivity/multimodal-commute-analysis",
+    "files": [
+      "skills/productivity/multimodal-commute-analysis/SKILL.md",
+      "skills/productivity/multimodal-commute-analysis/references/bay-area-transit-sources.md",
+      "skills/productivity/multimodal-commute-analysis/references/source-playbook.md"
+    ]
+  },
+  {
+    "name": "provider-usage-auditing",
+    "classification": "custom-local",
+    "path": "skills/devops/provider-usage-auditing",
+    "files": [
+      "skills/devops/provider-usage-auditing/SKILL.md",
+      "skills/devops/provider-usage-auditing/references/codex-limit-watchdog.md",
+      "skills/devops/provider-usage-auditing/references/nous-portal-and-daily-spend.md",
+      "skills/devops/provider-usage-auditing/references/openai-codex-usage-endpoint.md"
+    ]
+  },
+  {
+    "name": "purchase-deal-comparison",
+    "classification": "custom-local",
+    "path": "skills/research/purchase-deal-comparison",
+    "files": [
+      "skills/research/purchase-deal-comparison/SKILL.md",
+      "skills/research/purchase-deal-comparison/references/landed-cost-checkout.md"
+    ]
+  },
+  {
+    "name": "road-trip-lodging-research",
+    "classification": "custom-local",
+    "path": "skills/productivity/road-trip-lodging-research",
+    "files": [
+      "skills/productivity/road-trip-lodging-research/SKILL.md",
+      "skills/productivity/road-trip-lodging-research/references/ev-corridor-hotel-example.md",
+      "skills/productivity/road-trip-lodging-research/references/hotel-price-and-ev-verification.md",
+      "skills/productivity/road-trip-lodging-research/references/timed-stop-selection.md"
+    ]
+  },
+  {
+    "name": "web-data-csv-reports",
+    "classification": "custom-local",
+    "path": "skills/research/web-data-csv-reports",
+    "files": [
+      "skills/research/web-data-csv-reports/SKILL.md",
+      "skills/research/web-data-csv-reports/references/authenticated-social-relationship-exports.md",
+      "skills/research/web-data-csv-reports/references/hacker-news-algolia-domain-counts.md",
+      "skills/research/web-data-csv-reports/references/hiringcafe-ssr-job-market-counts.md"
+    ]
+  },
+  {
+    "name": "web-release-monitoring",
+    "classification": "custom-local",
+    "path": "skills/research/web-release-monitoring",
+    "files": [
+      "skills/research/web-release-monitoring/SKILL.md",
+      "skills/research/web-release-monitoring/templates/one-shot-web-watcher.py"
+    ]
+  }
+]
