@@ -59,11 +59,11 @@ Write a `.metadata.json` sidecar with:
 
 ## Delivery
 
-When the user asks for Telegram delivery and Hermes gateway is configured:
+When the user asks for Telegram delivery and a messaging gateway is configured:
 
 ```bash
-hermes send --list telegram
-hermes send --to telegram "Short description. MEDIA:/absolute/path/report.csv"
+your agent send command --list telegram
+your agent send command --to telegram "Short description. MEDIA:/absolute/path/report.csv"
 ```
 
-Verify success from `hermes send` stdout before telling the user it was sent.
+Verify success from your agent’s messaging/send command stdout before telling the user it was sent.

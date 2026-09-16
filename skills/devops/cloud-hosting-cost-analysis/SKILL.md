@@ -2,11 +2,7 @@
 name: cloud-hosting-cost-analysis
 description: "Use when comparing VPS and scale-to-zero hosting costs."
 version: 1.0.0
-author: Hermes Agent
 license: MIT
-metadata:
-  hermes:
-    tags: [cloud, hosting, vps, serverless, scale-to-zero, cost, migration]
 ---
 
 # Cloud Hosting Cost Analysis
@@ -128,4 +124,3 @@ Quantify monthly and annual savings. Small savings rarely justify reduced backup
 
 ## References
 
-- `references/hermes-agent-hosting.md` — Hermes-specific scale-to-zero economics, readiness checks, and a dated worked example.

@@ -2,10 +2,6 @@
 name: dynamic-web-catalog-research
 description: "Use when extracting current catalogs from JavaScript apps."
 version: 1.0.0
-metadata:
-  hermes:
-    tags: [research, javascript, spa, api, catalogs, recommendations]
-    related_skills: [blocked-page-recovery, grounded-citations]
 ---
 
 # Dynamic Web Catalog Research

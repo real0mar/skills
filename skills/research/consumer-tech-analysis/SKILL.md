@@ -2,12 +2,8 @@
 name: consumer-tech-analysis
 description: "Analyze consumer technology tradeoffs using web-verified facts, practitioner consensus, and matched-condition reasoning."
 version: 1.0.0
-author: Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]
-metadata:
-  hermes:
-    tags: [consumer-tech, smartphones, cameras, reviews, buying-advice, practitioner-consensus]
 ---
 
 # Consumer Tech Analysis

@@ -2,9 +2,6 @@
 name: conversational-persona-engineering
 description: "Use when analyzing or designing an AI assistant's conversational voice, personality, and user-facing agent layer."
 version: 1.0.0
-metadata:
-  hermes:
-    tags: [persona, voice, conversational-design, prompt-engineering, style-analysis, agents]
 ---
 
 # Conversational Persona Engineering

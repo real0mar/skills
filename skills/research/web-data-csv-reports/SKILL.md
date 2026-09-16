@@ -1,12 +1,8 @@
 ---
 name: web-data-csv-reports
-description: "Build verified CSV reports from web/API data and deliver them through Hermes messaging."
+description: "Build verified CSV reports from web/API data and deliver them through your agent’s messaging channel."
 version: 1.0.0
-author: Hermes Agent
 license: MIT
-metadata:
-  hermes:
-    tags: [research, data-extraction, csv, api, reporting, messaging]
 ---
 
 # Web Data CSV Reports
@@ -41,7 +37,7 @@ Use this skill when the user asks for a CSV/export/report built from web data, A
    - first rows look plausible,
    - any known API cap was handled, not silently truncated,
    - when a displayed count differs from retrievable records, repeat a full pagination pass or use an independent endpoint before reporting the discrepancy plainly.
-7. Deliver via `hermes send` when the user asks for a messaging-platform delivery. For attachments, put `MEDIA:/absolute/path/to/file.csv` in the message body.
+7. Deliver via your agent’s messaging/send command when the user asks for a messaging-platform delivery. For attachments, put `MEDIA:/absolute/path/to/file.csv` in the message body.
 8. Final response should be concise: provide the artifact, verification facts, method, any source-count discrepancy, and credential-cleanup status.
 
 ## CSV quality defaults
@@ -59,7 +55,7 @@ Use this skill when the user asks for a CSV/export/report built from web data, A
 - Cookie exports are live credentials. Do not log them, copy them into output artifacts, or retain them after the verified export.
 - Search APIs often report large `nbHits` but cap retrievable pages/results. Do not trust `nbHits` alone; page through or split the time range until each query is below the retrievable cap.
 - If using relative time windows, do not compute dates mentally. Use a tool and include exact UTC bounds in metadata.
-- If a platform send command supports home-channel shorthand, verify targets with `hermes send --list <platform>` when practical.
+- If a platform send command supports home-channel shorthand, verify targets with `your agent send command --list <platform>` when practical.
 - Do not promise CLI-origin cron delivery; CLI cron output is local-only unless a gateway target is specified.
 
 ## References

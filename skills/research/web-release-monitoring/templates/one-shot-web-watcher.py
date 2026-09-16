@@ -7,8 +7,8 @@ from pathlib import Path
 
 EVENT_NAME = "Example product event"
 OFFICIAL_URL = "https://example.com/product"
-STATE = Path.home() / ".hermes" / "cron" / "state" / "example-event-notified.json"
-USER_AGENT = "Mozilla/5.0 (compatible; Hermes-release-watch/1.0)"
+STATE = Path.home() / ".local/share/agent-skills" / "cron" / "state" / "example-event-notified.json"
+USER_AGENT = "Mozilla/5.0 (compatible; release-watch/1.0)"
 
 
 def fetch(url: str) -> str:

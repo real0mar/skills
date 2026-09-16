@@ -2,12 +2,7 @@
 name: air-travel-planning
 description: Use when assessing flight feasibility around hard events or deadlines.
 version: 1.0.0
-author: Hermes Agent
 license: MIT
-metadata:
-  hermes:
-    tags: [travel, flights, itinerary, scheduling, risk]
-    related_skills: [maps]
 ---
 
 # Air Travel Planning

@@ -2,11 +2,6 @@
 name: community-forum-research
 description: "Use when finding, recovering, and packaging forum threads."
 version: 1.0.0
-metadata:
-  hermes:
-    tags: [forums, reddit, archives, thread-research, offline-delivery]
-    category: research
-    related_skills: [blocked-page-recovery, grounded-citations]
 ---
 
 # Community Forum Research

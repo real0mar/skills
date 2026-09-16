@@ -19,8 +19,6 @@ Prefer symlink installs when prompted so one copy can feed multiple agents.
 
 ## Update
 
-Agents do not pull this repo on their own. Refresh with:
-
 ```bash
 npx skills update -y
 ```
@@ -33,7 +31,7 @@ gh skill update --all
 
 ### Antigravity
 
-Prefer a **project** install (commands above). For a global install across Antigravity hub, IDE, and CLI, place skills under `~/.gemini/config/skills/<name>/` until the skills CLI’s Antigravity global path is fixed.
+Prefer a **project** install. For globals across Antigravity hub, IDE, and CLI, use `~/.gemini/config/skills/<name>/` until the skills CLI’s Antigravity global path is fixed.
 
 ## Layout
 
@@ -51,10 +49,9 @@ Each `SKILL.md` needs `name` and `description` frontmatter. Folder name should m
 
 ## Notes
 
-- Some skills originated in a Hermes Agent environment. Replace Hermes-specific tool names with your agent’s equivalents where needed.
-- Scripts may assume Linux paths; adapt before running.
-- No credentials are included. Configure integrations yourself.
-- `manifest.json` is an inventory of the packaged skills.
+- Skills are written as reusable procedures. Adapt tool names and paths to your agent.
+- Review scripts before running them. No credentials are included.
+- `manifest.json` inventories packaged skills.
 
 ## License
 

@@ -2,12 +2,7 @@
 name: purchase-deal-comparison
 description: Use when comparing purchase deals and landed costs.
 version: 1.0.0
-author: Hermes Agent
 license: MIT
-metadata:
-  hermes:
-    tags: [shopping, price-comparison, local-inventory, landed-cost, consumer-research]
-    related_skills: [grounded-citations, maps]
 ---
 
 # Purchase Deal Comparison

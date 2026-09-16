@@ -2,12 +2,7 @@
 name: multimodal-commute-analysis
 description: Use when comparing transit-plus-walk/bike commute options. Build schedule-aware, station-to-door estimates from official transit data and routed last-mile legs.
 version: 1.0.0
-author: Hermes Agent
 license: MIT
-metadata:
-  hermes:
-    tags: [transit, commute, routing, schedules, multimodal]
-    related_skills: [maps]
 ---
 
 # Multimodal Commute Analysis

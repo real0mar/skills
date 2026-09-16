@@ -2,12 +2,7 @@
 name: road-trip-lodging-research
 description: Use for route-corridor lodging with vehicle constraints.
 version: 1.0.0
-author: Hermes Agent
 license: MIT
-metadata:
-  hermes:
-    tags: [travel, lodging, road-trip, hotels, ev-charging, price-comparison]
-    related_skills: [maps, grounded-citations, purchase-deal-comparison]
 ---
 
 # Road-Trip Lodging Research
