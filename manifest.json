@@ -1,5 +1,13 @@
 [
   {
+    "name": "headphone-iem-peq",
+    "classification": "custom-local",
+    "path": "skills/audio/headphone-iem-peq",
+    "files": [
+      "skills/audio/headphone-iem-peq/SKILL.md"
+    ]
+  },
+  {
     "name": "cloud-hosting-cost-analysis",
     "classification": "custom-local",
     "path": "skills/devops/cloud-hosting-cost-analysis",
