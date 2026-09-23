@@ -70,15 +70,6 @@
     ]
   },
   {
-    "name": "conversational-persona-engineering",
-    "classification": "custom-local",
-    "path": "skills/research/conversational-persona-engineering",
-    "files": [
-      "skills/research/conversational-persona-engineering/SKILL.md",
-      "skills/research/conversational-persona-engineering/references/poke-case-study.md"
-    ]
-  },
-  {
     "name": "dynamic-web-catalog-research",
     "classification": "custom-local",
     "path": "skills/research/dynamic-web-catalog-research",
